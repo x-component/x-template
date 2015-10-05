@@ -1,0 +1,50 @@
+{
+  "name": "x-template",
+  "version": "0.0.1",
+  "license": {
+    "type": "MIT"
+  },
+  "dependencies": {
+    "weld": "~0.2",
+    "async": "~0.2",
+    "x-common": "~0.0",
+    "x-log": "~0.0",
+    "x-select": "~0.0",
+    "x-format": "~0.0",
+    "x-dom": "~0.0",
+    "x-callback": "~0.0"
+  },
+  "description": "simple dom based templating of JSON and DOM trees using css selectors",
+  "keywords": [
+    "x-x",
+    "x-component",
+    "template",
+    "templating",
+    "dom",
+    "dom template",
+    "JSON",
+    "selector",
+    "css"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/x-component/x-template.git"
+  },
+  "devDependencies": {
+    "x-publish": "~0.1",
+    "vows": "0.7.x"
+  },
+  "main": "index.js",
+  "scripts": {
+    "prepublish": "./node_modules/x-publish/scripts/prepublish.sh ./template2.js",
+    "test": "$(npm bin)/vows ./test/*.test.js"
+  },
+  "bugs": {
+    "url": "https://github.com/x-component/x-template/issues"
+  },
+  "author": "",
+  "maintainers": [
+    ""
+  ],
+  "contributors": []
+}
